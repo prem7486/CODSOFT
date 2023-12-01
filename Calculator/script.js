@@ -25,6 +25,10 @@ arr.forEach(button => {
                 input.value = string;
             }
         }
+        else if(e.target.innerHTML == "%"){
+            string = input.value/100;
+            input.value = string;
+        }
         else{
             string += e.target.innerHTML;
             input.value = string;
@@ -32,3 +36,4 @@ arr.forEach(button => {
         ;
     })
 })
+
