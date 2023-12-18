@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#main{
+    display: flex;
+    height: 100%;
+}
+
+
+#leftside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100vh;
+    background-color: #0c4277;
+    position: sticky;
+    top: 0;
+    
+}
+#imgdiv{
+    text-align: center;
+}
+
+#sidebarimg img{
+    width: 150px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+#text{
+    margin: 10px;
+}
+
+#text h1{
+    font-size: 25px;
+    color: white;
+}
+
+#text p{
+    font-size: medium;
+    margin: 10px;
+    color: white;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+    
+    
+}
+
+#icon1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 10px;
+    color: black;
+    background-color: white;
+    font-size: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#icon2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 10px;
+    color: blue;
+    background-color: white;
+    font-size: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+
+#icon1:hover{
+    color: white;
+    background-color: black;
+    font-size: 35px;
+    transition: 0.3s;
+}
+
+#icon2:hover{
+    color: white;
+    background-color: blue;
+    font-size: 35px;
+    transition: 0.3s;
+}
+
+#btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn1{
+    width: 70%;
+    padding: 7px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+#btn1:hover{
+    color: white;
+    background-color: black;
+}
+
+#btn2{
+    width: 90%;
+    padding: 7px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+#btn2:hover{
+    color: white;
+    background-color: black;
+}
+
+#Rightside{
+    width: 80vw;
+    height: 100%;
+    background-color: #FCC5AA;
+    
+}
+
+#Rightside h6{
+    margin: 40px 40px 50px 40px;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(54, 48, 48, 0.3);
+}
+
+section{
+    width: 80%;
+    margin: 40px;
+}
+
+
+.bold{
+    display: block;
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 0 40px 20px 40px;
+    
+}
+
+#name{
+    color:rgb(255, 115, 0);
+}
+
+.about{
+    font-size: 13px;
+    margin-left: 40px;
+}
+
+.edu{
+    border-left: 1px solid black;
+    padding-left: 10px;
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #01539D;
+    top: 0px;
+    left: -5px;
+}
+
+.year{
+    font-size: 12px;
+}
+
+h3{
+    padding: 5px 0 0 0;
+}
+
+.tag{
+    padding: 5px 0 20px 0;
+}
+
+.tag-bottom{
+    padding: 5px 0 0 0;
+}
+
+h4{
+    margin: 40px;
+    border: 1px solid rgb(255, 115, 0);
+    width: 400px;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project-cards{
+    margin: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+img{
+    width: 450px;
+}
+
+.cards{
+    position: relative;
+}
+
+.tags{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    top: 3px;
+    left: 3px;
+    color: white;
+    font-size: 15px;
+}
+
+#contact{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.info{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.info p{
+    padding: 10px 10px 0 0;
+    font-weight: bold;
+
+}
+
+.ri-mail-send-line{
+    font-size: 20px;
+    color: red;
+}
+
+.ri-phone-line{
+    font-size: 20px;
+    color: blue;
+}
+
+.ri-whatsapp-line{
+    font-size: 20px;
+    color: green;
+}
+
+footer{
+    margin: 40px;
+}
+
+
+
+
+
